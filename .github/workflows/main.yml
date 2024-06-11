@@ -12,3 +12,5 @@ jobs:
       uses: actions/setup-node@v2
       with: ##con variable
         node-version: '20'
+    - name: Ejecutar test
+      run: npm test
