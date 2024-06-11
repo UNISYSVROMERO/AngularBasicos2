@@ -1,0 +1,10 @@
+name: prueba testing
+on:
+  push:
+    branches: [ "master" ]
+jobs:
+  build:
+    runs-on: ubuntu
+    steps:
+    - name: Comprobar respositorio
+      uses: actions/checkout@v2
