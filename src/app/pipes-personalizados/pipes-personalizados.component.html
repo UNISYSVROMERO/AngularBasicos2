@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Pipes personalizados</h1>
+  <p>Pipes creados por {{'nosotros'| mayusculas:enMayusculas }} </p>
+  <button class="btn btn-primary" (click)="cambiarMayusculas()">Testear pipe mayúsculas</button>
+  <br>
+  <p>Distancia en km de {{metros}}: {{metros|distancias | number: '1.2-2' }}</p>
+  <p>Distancia en cm de {{metros}}: {{metros|distancias:'cm' | number }}</p>
+  <hr>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Trabaja</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of personas">
+        <td>{{p.nombre | mayusculas:enMayusculas}}</td>
+        <!-- los pipes se pueden encadenar -->
+        <td>{{p.trabaja | trabaja | titlecase}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

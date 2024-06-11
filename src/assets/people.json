@@ -1,0 +1,34 @@
+[
+  {
+    "nombre": "Domeniga",
+    "apellido": "Kenwin",
+    "ciudad": "Frontignan",
+    "email": "dkenwin0@about.com",
+    "avatar": "https://robohash.org/necessitatibusetsit.jpg?size=50x50&set=set1",
+    "sueldo": "€1321,10"
+  },
+  {
+    "nombre": "Simeon",
+    "apellido": "Cortese",
+    "ciudad": "Añatuya",
+    "email": "scortese1@netlog.com",
+    "avatar": "https://robohash.org/inventorevoluptasdebitis.jpg?size=50x50&set=set1",
+    "sueldo": "€1045,28"
+  },
+  {
+    "nombre": "Vally",
+    "apellido": "Purslow",
+    "ciudad": "Kallífytos",
+    "email": "vpurslow2@reverbnation.com",
+    "avatar": "https://robohash.org/impeditomnisqui.bmp?size=50x50&set=set1",
+    "sueldo": "€1866,32"
+  },
+  {
+    "nombre": "Koral",
+    "apellido": "Reichartz",
+    "ciudad": "Adolfo Lopez Mateos",
+    "email": "kreichartz3@unc.edu",
+    "avatar": "https://robohash.org/solutaeumet.bmp?size=50x50&set=set1",
+    "sueldo": "€1558,29"
+  }
+]
